@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=require("electron");e.contextBridge.exposeInMainWorld("apis",{setTitle:i=>e.ipcRenderer.send("set-title",i),simpleDialog:async i=>await e.ipcRenderer.invoke("open-simple-dialog",i)})})();

@@ -1,0 +1,1 @@
+(()=>{"use strict";document.getElementById("sample-button").addEventListener("click",(async()=>{await window.apis.simpleDialog("OK")}))})();
